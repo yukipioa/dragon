@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiale=3.0">
+    <title>dragon</title>
+  </head>
+  <body>
+  <script 
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+  
+  <style>
+    model-viewer{
+      width:400px;
+      heigh:600px;
+      margin:0 auto;
+    }
+  </style>
+
+    <model-viewer  
+    ar
+    alt="dogモデル"
+    src="Dragon_2.5_For_Animations.glb" 
+    ios-src="Dragon.usdz"                  
+
+    background-color="#70BCD1"
+    shadow-intensity="0.7"
+    camera-controls
+    interaction-prompt="auto"
+    auto-rotate ar magic-leap>
+
+
+    </model-viewer>
+  </body>
+</html>
